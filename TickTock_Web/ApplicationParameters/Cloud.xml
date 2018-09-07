@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Name="fabric:/TickTock_Web" xmlns="http://schemas.microsoft.com/2011/01/fabric">
+  <Parameters>
+    <Parameter Name="TickTock_Web_UI_InstanceCount" Value="-1" />
+    <Parameter Name="TickTock_Web_UI_InstanceCount" Value="-1" />
+    <Parameter Name="TickTock_Web_UI_InstanceCount" Value="-1" />
+    <Parameter Name="TickTock_Web_UI_InstanceCount" Value="-1" />
+    <Parameter Name="TickTock_Web_API_InstanceCount" Value="-1" />
+  </Parameters>
+</Application>

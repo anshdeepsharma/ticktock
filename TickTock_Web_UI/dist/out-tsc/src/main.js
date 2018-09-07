@@ -12,5 +12,5 @@ if (environment.production) {
 // Note: @ng-tools/webpack looks for the following expression when performing production
 // builds. Don't change how this line looks, otherwise you may break tree-shaking.
 var modulePromise = platformBrowserDynamic().bootstrapModule(AppModule).catch(function (err) { return console.log(err); });
-;
+//const { AppServerModuleNgFactory } = (module as any).exports;
 //# sourceMappingURL=main.js.map

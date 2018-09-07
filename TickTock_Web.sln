@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2026
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "TickTock_Web", "TickTock_Web\TickTock_Web.sfproj", "{372C3228-B048-489C-B42D-A96DBF49093B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TickTock_Web_API", "TickTock_Web_API\TickTock_Web_API.csproj", "{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TickTock_Web_UI", "TickTock_Web_UI\TickTock_Web_UI.csproj", "{56B7A0F3-25FA-494E-90E6-C60866AC3803}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{372C3228-B048-489C-B42D-A96DBF49093B}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{372C3228-B048-489C-B42D-A96DBF49093B}.Debug|x64.ActiveCfg = Debug|x64
+		{372C3228-B048-489C-B42D-A96DBF49093B}.Debug|x64.Build.0 = Debug|x64
+		{372C3228-B048-489C-B42D-A96DBF49093B}.Debug|x64.Deploy.0 = Debug|x64
+		{372C3228-B048-489C-B42D-A96DBF49093B}.Release|Any CPU.ActiveCfg = Release|x64
+		{372C3228-B048-489C-B42D-A96DBF49093B}.Release|x64.ActiveCfg = Release|x64
+		{372C3228-B048-489C-B42D-A96DBF49093B}.Release|x64.Build.0 = Release|x64
+		{372C3228-B048-489C-B42D-A96DBF49093B}.Release|x64.Deploy.0 = Release|x64
+		{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}.Debug|x64.Build.0 = Debug|Any CPU
+		{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}.Release|x64.ActiveCfg = Release|Any CPU
+		{4F8C0791-6D6B-43AC-A65D-62F90EA8EF2A}.Release|x64.Build.0 = Release|Any CPU
+		{56B7A0F3-25FA-494E-90E6-C60866AC3803}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56B7A0F3-25FA-494E-90E6-C60866AC3803}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56B7A0F3-25FA-494E-90E6-C60866AC3803}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{56B7A0F3-25FA-494E-90E6-C60866AC3803}.Debug|x64.Build.0 = Debug|Any CPU
+		{56B7A0F3-25FA-494E-90E6-C60866AC3803}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56B7A0F3-25FA-494E-90E6-C60866AC3803}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56B7A0F3-25FA-494E-90E6-C60866AC3803}.Release|x64.ActiveCfg = Release|Any CPU
+		{56B7A0F3-25FA-494E-90E6-C60866AC3803}.Release|x64.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A936C27A-19C2-4963-9E75-01671DD70521}
+	EndGlobalSection
+EndGlobal

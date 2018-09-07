@@ -7,7 +7,6 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 import { Component } from '@angular/core';
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'TickTock_Web_UI';
     }
     AppComponent = __decorate([
         Component({
@@ -19,4 +18,5 @@ var AppComponent = /** @class */ (function () {
     return AppComponent;
 }());
 export { AppComponent };
+// var title = 'TickTock_Web_UI';
 //# sourceMappingURL=app.component.js.map

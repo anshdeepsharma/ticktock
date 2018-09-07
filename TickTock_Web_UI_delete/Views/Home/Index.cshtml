@@ -1,0 +1,14 @@
+@{
+  ViewData["Title"] = "Home Page";
+}
+
+
+@*This looks in specified path and requires the extension*@
+@*@Html.Partial("~/src/index.html")*@
+
+@*<app asp-prerender-module="src/dist/main-server">Loading...</app>
+
+<script src="~/dist/vendor.js" asp-append-version="true"></script>
+@section scripts {
+  <script src="~/dist/main-client.js" asp-append-version="true"></script>
+}*@

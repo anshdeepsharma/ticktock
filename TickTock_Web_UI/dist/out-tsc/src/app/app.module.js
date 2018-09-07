@@ -10,8 +10,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
-import { AgmCoreModule } from '@agm/core';
-import { platformBrowserDynamic } from '@angular/platform-browser-dynamic';
+import { AgmCoreModule, GoogleMapsAPIWrapper } from '@agm/core';
 //Application Modules
 import { AppComponent } from './app.component';
 import { SecurityComponent } from './security/security.component';
@@ -69,13 +68,14 @@ var AppModule = /** @class */ (function () {
                     { path: 'app-vision', component: AboutusComponent },
                     { path: 'app-announcements', component: AnnouncementsComponent },
                     { path: 'app-team', component: TeamComponent },
+                    { path: 'app-trackdevices', component: TrackdevicesComponent },
                     { path: '**', redirectTo: 'home' }
                 ]),
                 AgmCoreModule.forRoot({
-                    apiKey: 'AIzaSyCjMxrdHckY7rDOKdr1BwVI1nE78f8dERQ'
+                    apiKey: 'AIzaSyAyJlqYQxONEk2lvrCLJnaEkqtGPdCvSUw'
                 })
             ],
-            providers: [{ provide: 'BASE_URL', useFactory: getBaseUrl }]
+            providers: [{ provide: 'BASE_URL', useFactory: getBaseUrl }, GoogleMapsAPIWrapper]
         })
     ], AppModule);
     return AppModule;
@@ -84,5 +84,5 @@ export { AppModule };
 export function getBaseUrl() {
     return document.getElementsByTagName('base')[0].href;
 }
-var modulePromise = platformBrowserDynamic().bootstrapModule(AppModule);
+//const modulePromise = platformBrowserDynamic().bootstrapModule(AppModule);
 //# sourceMappingURL=app.module.js.map
