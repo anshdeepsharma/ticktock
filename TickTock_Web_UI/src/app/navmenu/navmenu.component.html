@@ -1,0 +1,100 @@
+<div class='main-nav' >
+  <div class='navbar navbar-inverse'>
+    <div class='nav navbar-header'>
+      <button type='button' class='navbar-toggle' data-toggle='collapse' data-target='.navbar-collapse'>
+        <span class='sr-only'>Toggle navigation</span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+        <span class='icon-bar'></span>
+      </button>
+      <div>
+        <a class='navbar-brand' [routerLink]="['/home']">
+          TickTock <span class='glyphicon glyphicon-home'></span>
+        </a>
+       </div>
+    </div>
+    <div class='clearfix'></div>
+    <div class='navbar-collapse collapse'>
+      <ul class='nav navbar-nav'>
+        <!--<li [routerLinkActive]="['link-active']" data-toggle='collapse' data-target='.navbar-collapse'>
+          <a [routerLink]="['/home']">
+            <span class='glyphicon glyphicon-home'></span> Home
+          </a>
+        </li>-->
+        <li [routerLinkActive]="['link-active']" data-toggle='collapse' >
+          <a [routerLink]="['/app-services']">
+            <span class='glyphicon glyphicon-education ' ></span> Services
+          </a>
+        </li>
+        <li [routerLinkActive]="['link-active']" data-toggle='collapse' data-target='.navbar-collapse'>
+          <a [routerLink]="['/app-products']">
+            <span class='glyphicon glyphicon-th-list'></span> Products
+          </a>
+        </li>
+        <li [routerLinkActive]="['link-active']" data-toggle='collapse' data-target='.navbar-collapse'>
+          <a [routerLink]="['/app-companies']">
+            <span class='glyphicon glyphicon-globe'></span> Companies
+          </a>
+        </li>
+
+        <li [routerLinkActive]="['link-active']" data-toggle='collapse' data-target='.navbar-collapse'>
+          <a [routerLink]="['/app-security']">
+            <span class='glyphicon glyphicon-eye-open'></span> My Security
+          </a>
+        </li>
+
+        <li [routerLinkActive]="['link-active']" data-toggle='collapse' data-target='.navbar-collapse'>
+          <a [routerLink]="['/app-contactus']">
+            <span class='glyphicon glyphicon-user'></span> Contact Us
+          </a>
+        </li>
+
+        <li [routerLinkActive]="['link-active']" data-toggle='collapse' data-target='.navbar-collapse'>
+          <a [routerLink]="['/app-aboutus']">
+            <span class='glyphicon glyphicon-font'></span> About Us
+          </a>
+        </li>
+
+        <li [routerLinkActive]="['link-active']" data-toggle='collapse' data-target='.navbar-collapse'>
+          <a [routerLink]="['/app-announcements']">
+            <span class='glyphicon glyphicon-bullhorn'></span> Announcements
+          </a>
+        </li>
+
+      </ul>
+    </div>
+    
+  </div>
+</div>
+
+
+
+
+
+
+
+<!--<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>-->

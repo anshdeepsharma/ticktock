@@ -1,0 +1,90 @@
+  <div class="container">
+
+         <a href="#" class="twitter fa-pull-right" ><i class="fa fa-twitter"></i></a>
+        <a href="#" class="facebook fa-pull-right"><i class="fa fa-facebook"></i></a>
+        <a href="#" class="instagram fa-pull-left"><i class="fa fa-instagram"></i></a>
+        <a href="#" class="google-plus fa-pull-left"><i class="fa fa-google-plus"></i></a>
+        <a href="#" class="linkedin pull-right"><i class="fa fa-linkedin"></i></a>
+      <div id="logo" class="pull-left">
+    <h1><a href="#body" class="scrollto" style="color:white"><span>e</span>TickTock</a></h1>
+    <!-- Uncomment below if you prefer to use an image logo -->
+    <!-- <a href="#body"><img src="/src/assets/img/logo.png" alt="" title="" /></a>-->
+
+  </div>
+  <nav id="nav-menu-container">
+    <ul class="nav-menu">
+      <!--<li class="menu-active"><a href="#hero">Home</a></li>-->
+      <li class="menu-active">
+        <a [routerLink]="['/home']">
+          <span class='glyphicon glyphicon-home'></span> Home
+        </a>
+      </li>
+      <!--<li><a href="#about-us">About</a></li>-->
+      <li data-toggle='collapse'>
+        <a [routerLink]="['/app-vision']">
+          <span class='glyphicon glyphicon-font'></span> Our Vision
+        </a>
+      </li>
+
+      <li class="menu-has-children">
+        <a [routerLink]="['/app-products']">Products</a>
+        <ul>
+          <li><a href="#">Identity Cards</a></li>
+          <li><a href="#">Workstation Security</a></li>
+          <li><a href="#">Live Tracking</a></li>
+          <li><a href="#">Drop Down 5</a></li>
+        </ul>
+      </li>
+
+      <!--<li><a href="#features">Features</a></li>-->
+      <li [routerLinkActive]="['link-active']" data-toggle='collapse'>
+        <a [routerLink]="['/app-services']">
+          <span class='glyphicon glyphicon-education '></span> Services
+        </a>
+        
+        <ul>
+          <li>
+            <a [routerLink]="['/app-trackdevices']">
+              <span class='glyphicon glyphicon-education '></span> Live Tracking
+            </a>
+
+          </li>
+          <li><a href="#">Drop Down sample</a></li>
+        </ul>
+      </li>
+
+      <!--<li><a href="#pricing">Pricing</a></li>-->
+      <li [routerLinkActive]="['link-active']" data-toggle='collapse'>
+        <a [routerLink]="['/app-companies']">
+          <span class='glyphicon glyphicon-education '></span> Companies
+        </a>
+      </li>
+
+
+      <!--<li><a href="#screenshots">Screenshots</a></li>-->
+      <!--<li><a href="#team">Team</a></li>-->
+      <li [routerLinkActive]="['link-active']" data-toggle='collapse'>
+        <a [routerLink]="['/app-team']">
+          <span class='glyphicon glyphicon-education '></span> Team
+        </a>
+      </li>
+
+
+
+
+      <!--<li><a href="#blog">Blog</a></li>-->
+      <li [routerLinkActive]="['link-active']" data-toggle='collapse'>
+        <a [routerLink]="['/app-announcements']">
+          <span class='glyphicon glyphicon-education '></span> Annoumcements
+        </a>
+      </li>
+      <!--<li><a href="#contact">Contact</a></li>-->
+      <li [routerLinkActive]="['link-active']" data-toggle='collapse' data-target='.navbar-collapse'>
+        <a [routerLink]="['/app-contactus']">
+          <span class='glyphicon glyphicon-user'></span> Contact Us
+        </a>
+      </li>
+    </ul>
+  </nav><!-- #nav-menu-container -->
+</div>
+
